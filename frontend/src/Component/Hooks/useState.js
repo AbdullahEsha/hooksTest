@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./style.css";
 
 const UseState = () => {
-    const initialdata = 0;
-    const [myNum, setMyNum] = useState(initialdata);
+    const intialData = 0;
+    const [myNum, setMyNum] = useState(intialData);
     console.log(myNum);
 
     return (
